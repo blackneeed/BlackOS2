@@ -12,5 +12,5 @@ for path, _, files in os.walk('src/kernel'):
                 lines[i] = " ".join(line.split(" ")[:-1] + [str(int(line.split(" ")[2]) + 1)])
                 break
             with open(os.path.join(path, "version.h"), 'w') as f:
-                f.write('\n'.join(lines))
+                f.write('\r\n'.join(lines))
             exit()
