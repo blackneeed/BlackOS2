@@ -1,7 +1,7 @@
 // Created by Blackneeed
 
 #pragma once
-#define BUILD_NUMBER 17
+#define BUILD_NUMBER 22
 
 typedef struct OSVersion {
     int buildNum;

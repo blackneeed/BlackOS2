@@ -6,7 +6,7 @@
 #include <core/graphics/point.h>
 #include <core/graphics/size.h>
 #include <core/memory.h>
-#include <core/drivers/PortIO.h>
+#include <core/drivers/PortIO/PortIO.h>
 
 struct Size currentSize = {.width = 80, .height = 25};
 struct Point currentPos = {.x = 0, .y = 0};
